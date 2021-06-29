@@ -1,0 +1,28 @@
+{
+    "productos":[
+        {
+            "nombre":"arroz",
+            "precio":500
+        },
+        {
+            "nombre":"papa",
+            "precio":500
+        },
+        {
+            "nombre":"leche",
+            "precio":500
+        },
+        {
+            "nombre":"agua",
+            "precio":500
+        },
+        {
+            "nombre":"yuca",
+            "precio":500
+        },
+        {
+            "nombre":"carne",
+            "precio":500
+        }
+    ]
+}
