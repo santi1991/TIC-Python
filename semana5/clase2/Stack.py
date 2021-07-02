@@ -42,7 +42,7 @@ print(listaEjemplo)
 
 def retirarDato(lista):
     lista.pop()
-    return lista
+    return lista 
 
 
 def agregarDato(lista, dato):
