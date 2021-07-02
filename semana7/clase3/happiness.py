@@ -2,7 +2,7 @@ import csv
 
 #1. descargar el archivo happiness.csv, abrirlo con python e imprimir todas las filas
 with open('happiness.csv',newline="") as happinessFile:
-    happinessData = csv.reader(happinessFile,delimiter=";")
+    happinessData = csv.reader(happinessFile,delimiter=";") 
     #1. imprimir todas las filas
     # for row in happinessData:
     #     print(row)
@@ -31,7 +31,7 @@ with open('happiness.csv',newline="") as happinessFile:
     # print("el valor del promedio del ladder score es: ", promedio)
 
     #5. calcular el país de asia con el "social support" más alto
-    # maximo=0
+    # maximo=0 
     # pais=""
     # for row in happinessData:
     #     if "Asia" in row[1]:

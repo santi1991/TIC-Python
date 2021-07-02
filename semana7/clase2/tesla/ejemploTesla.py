@@ -4,7 +4,7 @@ import csv
 #bajo si el valor de apertura fue menor a 300
 #medio si el valor estuvo entre 300 y 500
 
-resultados = [["Fecha","Valor de Apertura", "Resultado"]]
+resultados = [["Fecha","Valor de Apertura", "Resultado"]] 
 
 with open('tesla.csv',newline="") as teslaCSV:
     reader = csv.reader(teslaCSV,delimiter=",")

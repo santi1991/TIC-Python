@@ -18,14 +18,18 @@ class Tienda:
         # definir metodo para agregar un nuevo producto
     def agregarProducto(self, producto):
         self.productos.append(producto)
+        
     def imprimirProductos(self):
         for producto in self.productos:
             print(producto)
+
     def agregarCliente(self, cliente):
         self.clientes.append(cliente)
+
     def imprimirClientes(self):
         for cliente in self.clientes:
             print(cliente)
+
     def convertirProductosADiccionario(self):
         diccProductos={"productos":[]}
         for producto in self.productos:
